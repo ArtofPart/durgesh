@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curious Cat</title>
+    <link rel="stylesheet" href="d.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Curious Cat</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="workshops.html">Workshops & Events</a></li>
+                <li><a href="stories.html">Stories</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <video controls width="100%" poster="hero-placeholder.jpg">
+                <source src="c:\Users\durgesh yadav\Downloads\10653331-hd_3840_2160_24fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay-text">
+                <h2>Transform Yourself. Transform the World.</h2>
+            </div>
+        </section>
+
+        <section id="offerings">
+            <h3>Key Offerings</h3>
+            <div class="offerings-grid">
+                <a href="workshops.html" class="offering-item">
+                    <h4>Workshops</h4>
+                    <p>e.g., "Unmasking Bias: A T.O. Journey"</p>
+                </a>
+                <a href="events.html" class="offering-item">
+                    <h4>Events</h4>
+                    <p>e.g., "Climate Anxiety Dialogue Circles"</p>
+                </a>
+                <a href="resources.html" class="offering-item">
+                    <h4>Resources</h4>
+                    <p>e.g., "Guide to Becoming a Spect-Actor"</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="social-proof">
+            <blockquote>
+                "This workshop rewired how I see power." - Participant Quote 1
+            </blockquote>
+            <blockquote>
+                "The most transformative experience." - Participant Quote 2
+            </blockquote>
+        </section>
+
+        <section id="quiz-section">
+            <h2>What's Your Role?</h2>
+            <p>Playful quiz to determine if you are "The Catalyst," "The Healer," or "The Visionary."</p>
+            <form id="role-quiz">
+                <div class="question">
+                    <p>Question 1: How do you typically approach challenges?</p>
+                    <label><input type="radio" name="q1" value="catalyst"> Head-on, initiating action</label><br>
+                    <label><input type="radio" name="q1" value="healer"> With empathy and care for others</label><br>
+                    <label><input type="radio" name="q1" value="visionary"> By envisioning new possibilities</label><br>
+                </div>
+                <div class="question">
+                    <p>Question 2: What motivates you most in group settings?</p>
+                    <label><input type="radio" name="q2" value="catalyst"> Seeing tangible results and progress</label><br>
+                    <label><input type="radio" name="q2" value="healer"> Ensuring everyone feels heard and supported</label><br>
+                    <label><input type="radio" name="q2" value="visionary"> Exploring innovative ideas and solutions</label><br>
+                </div>
+                <button type="submit">Submit Quiz</button>
+            </form>
+            <div id="quiz-result" style="display:none;">
+                <h3>Your Role is: <span id="role-name"></span></h3>
+                <p id="role-description"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Curious Cat. Embody Change. Rewrite Reality.</p>
+        <p>
+            <a href="" target="_blank">Instagram</a> |
+            <a href="" target="_blank">facabook</a> |
+            <a href="" target="_blank">Twitter</a> 
+            
+
+        </p>
+    </footer>
+    <script src="f.js"></script>
+</body>
+</html>
